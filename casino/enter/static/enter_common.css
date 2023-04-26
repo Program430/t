@@ -1,0 +1,32 @@
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+.bod{
+    padding-top:5%;
+    padding-left:42%;
+    padding-right:42%
+}
+.reg{
+    padding-top:1.5%;
+}
+
+@keyframes letter{
+  0% {opacity: 0; transform: translateY(-15px)}
+  100% {opacity: 1; transform: translateY(0px)}
+}
+
+.word div {
+  animation: letter 0.5s;
+  display: inline-block;
+}
